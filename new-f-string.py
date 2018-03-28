@@ -8,7 +8,7 @@ s = 'Araújo' #sobrenome
 f'Meu nome é {n} de {s}' #forma que exibe direto, no sonsole do Python
 print(f'Meu nome é {n} de {s}') #Vou mostrar na tela
 
-#1.1 As aspas triplas (''' ou """) tambem pode ser usada para exressar varias linhas aos inves de quebralas (\n)
+#1.1 As aspas triplas (''' ou """) tambem pode ser usada para expressar varias linhas aos inves de quebralas (\n)
 f'''Meu nome é {n}
 de {s}"""
 print(f'''Meu nome é {n}
