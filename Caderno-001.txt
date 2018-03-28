@@ -1,0 +1,19 @@
+MINHAS ANOTAÇÕES
+  
+  
+  Formas em que o Python Trabalha com as Aspas;
+  
+    Hoje aprendi em relação as aspas simples ('') e duplas ("") dentro da função print()!
+      Eu quero imprimir na tela uma frase que tenha meu nome em aspas:
+        Resultado que espero - 'Meu nome é "Noé"!'
+      Normalmente iriamos fazer o seguinte: 
+        print("Meu nome é "" + nome + """) #nome é uma variavel
+          Se você for executar esse codigo vai aparecer a seguinte frase:
+            'Meu nome é  +nome+' 
+      1# Onde está o erro? O nesse codico o Python entende que "Meu nome é " já é uma frase, " + nome + " já é outras string e ""
+      é um string vazia. Sabendo assim, se uma variavel estiver entre aspas será tratado como string (texto).
+      2# Onde está a solução? Se você inicia uma frase com aspas duplas ("), termine com elas (o memso se aplicas as aspas simples (')).
+      se você não fizer isso o python não vai enteder e poderar causar erros. Ao saber disso a solução cai do céu, assim poderiamos concluir que 
+      uma mera substituição de aspas poderar resolver o problema:
+        print('Meu nome é "' + nome + '"') #nome é uma variavel que recebeu 'Noé'
+          resultado: 'Meu nome é "Noé"'
