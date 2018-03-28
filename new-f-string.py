@@ -31,5 +31,4 @@ Não entendi, como é que se quebra as linhas com \n?
 Ao inves de você quebrar a linha manualmente, como fiz anteriomente (Enter), 
 eu faço 1 linha só e coloco \n nos lugares que quero quebrar.
 '''
-f'Meu nome é {n} \n
-de {s}'
+f'Meu nome é {n} \n de {s}'
